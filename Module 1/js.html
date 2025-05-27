@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Community Event Portal</title>
+</head>
+<body>
+  <div id="eventContainer"></div>
+  <input id="searchInput" placeholder="Search event..." />
+  <select id="categoryFilter">
+    <option value="Music">Music</option>
+    <option value="Art">Art</option>
+  </select>
+  <form id="registrationForm">
+    <input name="name" placeholder="Your Name" />
+    <input name="email" placeholder="Email" />
+    <select name="event">
+      <option value="Music Fest">Music Fest</option>
+    </select>
+    <button type="submit">Register</button>
+  </form>
+  <div id="error"></div>
+  <div id="spinner" style="display:none">Loading...</div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
